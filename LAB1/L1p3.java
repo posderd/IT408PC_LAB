@@ -1,5 +1,5 @@
 import java.lang.*;
-class L1p4{
+class L1p3{
 		public static void main(String[] args){
 			int a =1;
 			double b = 2.22;
