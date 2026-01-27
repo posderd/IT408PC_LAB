@@ -6,17 +6,20 @@ class L2P1{
 		System.out.println("enter the number");
 		int a = sc.nextInt();
 		loop:
-			for(;;){
+			for(int i =1;1<=a;i++){
 				int p = 0;
-				for(int j= 0;j<=11;j++){
+				for(int j= 1;j<11;j++){
+					System.out.println( i+ "*"+j+ "= "+ i*j);
+					if(j==10){
 					System.out.println("enter 0 to end and 1 to continue");
 					p = sc.nextInt();
-					if(p==0||j==11){
+					if(p==0){
 					break loop;}
 					else{
-						System.out.println( a+ "*"+j+ "= "+ a*j);
-					} 
+					continue;}
+					}
 					}
 				}
 		}
 }
+
